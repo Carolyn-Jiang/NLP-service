@@ -14,11 +14,11 @@ There are two main PY files (named final.py and craper.py) and one chromedrive.e
 To run the program, you need to download all three file at the same address.
 
 ### 3.logic of this project
-Initially, we webscraper 5+5+5+5+5 
-then sentiment 
-vectorize
-fit svm
-generate scores to show trend
+Initially, we webscraper 5+5+5+5+5  
+then sentiment  
+vectorize  
+fit svm  
+generate scores to show trend  
 
 
 
