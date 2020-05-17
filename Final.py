@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 def get_comment_list(list):
+    #Get 100 comments of each chosen stock from Yahoo Finance by using webcarper 
     com = []
     for ele in list:
         temp = craper.web(ele)
@@ -14,6 +15,7 @@ def get_comment_list(list):
     return com
 
 def svm_test(X, Y):
+    #Build up regression function for SVM modeling
     regr = svm.SVR()
     return(regr.fit(X, Y))
 
