@@ -1,7 +1,6 @@
 # Tendency Analysis on Yahoo Finance Stocks Comments (NLP-service)
 ## Background
-To establish a NLP service Project, our group decided to analyze the trendency of comments under each stocks those performed good or bad by webcarpering Yahoo Finance. For midterm 
-
+To establish a NLP service Project, our group decided to analyze the trendency of comments under each stocks those performed good or bad by webcarpering Yahoo Finance. For midterm, we
 ## Preparation and Installation
 To run this program properly, you need to download the appropriate version of chromedriver-exe file for webscraper use.  
 This project uses pandas, sklearn, selenium and vaderSentiment. Carefully check whether they are already installed locally, before you run the program.
