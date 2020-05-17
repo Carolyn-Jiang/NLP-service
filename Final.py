@@ -25,7 +25,7 @@ def sentiment(text):
         sentiment_analysis = []
         for i in range(len(text)):
             score = analyser.polarity_scores(text[i])
-            scores = sentiment_analysis.append(score)
+            sentiment_analysis.append(score)
         return sentiment_analysis
     score = sentiment_analysis(text)
     negs = []
