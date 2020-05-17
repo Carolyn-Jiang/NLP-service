@@ -86,5 +86,6 @@ if __name__ == "__main__":
 
     score_senti = get_score(X_train, y_senti, X_test)
     final_score_senti = mean_cal(score_senti, 0)
-    print(final_score_senti)
-    print(final_score_id)
+
+    print('Sentiment analyzer give score of %f'%final_score_senti)
+    print('Increase/decrease analyzere give score of %f'%final_score_id)
