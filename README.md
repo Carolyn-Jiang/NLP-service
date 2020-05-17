@@ -13,7 +13,7 @@ There are two main PY files (named final.py and craper.py) and one chromedrive.e
 To run the program, you need to download all three file under the same address. Open the final.py file with any python editor and run it. Please do not do anything to the opening website, which would cause error to the webscraper. During the program processing, there will be a input require for you to type the stock code you want to analyse from the console. The program will not continue until the code already input. 
 
 ### 3.logic of this project
-Initially, we searched 25 phenomenal stocks, marking them 5 per group as "High-performing", "well-performing", "stable", "badly-performing", "horriblely performing" by looking their performing last three months.
+Initially, we picked out 25 phenomenal stocks, marking them 5 per group as "High-performing", "well-performing", "stable", "badly-performing", "horriblely performing" by looking their performing last three months.
 then sentiment  
 vectorize  
 fit svm  
