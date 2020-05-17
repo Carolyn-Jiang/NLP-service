@@ -1,1 +1,2 @@
-Tendency Analysis on Yahoo Finance Stocks Comments (NLP-service)
+# Tendency Analysis on Yahoo Finance Stocks Comments (NLP-service)
+## background
