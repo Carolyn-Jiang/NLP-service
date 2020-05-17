@@ -3,7 +3,7 @@
 To establish a NLP service Project, our group decided to analyze the trendency of comments under each stocks those performed good or bad by webcarpering Yahoo Finance. 
 
 ## Preparation and Installation
-To run this program properly, you need to download the appropriate version of chromedriver-exe file for webscraper use.
+To run this program properly, you need to download the appropriate version of chromedriver-exe file for webscraper use.  
 This project uses pandas, sklearn, selenium and vaderSentiment. Carefully check whether they are already installed locally, before you run the program.
 
 ## Introduciton of this project
