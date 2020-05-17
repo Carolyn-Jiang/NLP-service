@@ -14,9 +14,9 @@ To run the program, you need to download all three file under the same catalog a
 Open the Input Stock Code Here.py file with any python editor and run it. Please do not do anything to the opening website, which would cause error to the webscraper. During the program processing, there will be a input require for you to type the stock code you want to analyse from the console. The program will not continue until the code already input. 
 
 ### 3.logic of this project
-Initially, we picked out 25 phenomenal stocks, marking them 5 per group as "High-performing", "well-performing", "stable", "badly-performing", "horriblely performing" by looking their performing last three months. 
-In order to fit SVM model, we cannot use text content to train and test, so we import TfidfVectorizer to convert words to matrixs. Then we use converted comments under those 25 stocks as traindata, converted comment of new input stocks as teatdata, fitting them into svm regression to get the score. 
-After that, we apply sentiment analysis on each single test stocks comment, getting a mean score of them. Finally, we get two scores can be used to determine the trendency shown by those comments
+Initially, we picked out 25 phenomenal stocks, marking them 5 per group as "High-performing", "well-performing", "stable", "badly-performing", "horriblely performing" by looking their performing last three months.   
+In order to fit SVM model, we cannot use text content to train and test, so we import TfidfVectorizer to convert words to matrixs. Then we use converted comments under those 25 stocks as traindata, converted comment of new input stocks as teatdata, fitting them into svm regression to get the score.   
+After that, we apply sentiment analysis on each single test stocks comment, getting a mean score of them. Finally, we get two scores can be used to determine the trendency shown by those comments.  
 
 ## Conclusion
 After testing on both well performing and badly performing stocks many times by applying our program, we find that those comments can neither help us to predict the future nor clearly show expectaion of those investors. People actually comments tons of useless words and usually driven by the price flow(showing slightly on the score).
