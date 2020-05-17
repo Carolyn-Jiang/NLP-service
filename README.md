@@ -22,6 +22,6 @@ After that, we apply sentiment analysis on each single test stocks comment, gett
 After testing on both well performing and badly performing stocks many times by applying our program, we find that those comments can neither help us to predict the future nor clearly show expectaion of those investors. People actually comments tons of useless words and usually driven by the price flow(showing slightly on the score).
 
 ## Contributing 
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-all-contributors generate
+Zhang Jianing
+Jiang Yuechen
+Hu Yuelin
