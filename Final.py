@@ -17,7 +17,8 @@ def get_comment_list(list):
 def svm_test(X, Y):
     #Build up regression function for SVM modeling
     regr = svm.SVR()
-    return(regr.fit(X, Y))
+    regr.fit(X, Y)
+    return(regr)
 
 def sentiment(text):
     analyser = SentimentIntensityAnalyzer()
